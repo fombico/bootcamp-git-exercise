@@ -22,4 +22,10 @@ class ExerciseTests {
     void exercise2() {
         assertThat(2).isEqualTo(2);
     }
+
+    @Test
+    @DisplayName("Exercise 3")
+    void exercise3() {
+        assertThat(3).isEqualTo(3);
+    }
 }
