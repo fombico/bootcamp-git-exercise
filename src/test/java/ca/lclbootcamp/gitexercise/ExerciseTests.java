@@ -16,4 +16,10 @@ class ExerciseTests {
     void exercise1() {
         assertThat(1).isEqualTo(1);
     }
+
+    @Test
+    @DisplayName("Exercise 2")
+    void exercise2() {
+        assertThat(2).isEqualTo(2);
+    }
 }
