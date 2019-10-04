@@ -26,6 +26,6 @@ class ExerciseTests {
     @Test
     @DisplayName("Exercise 6")
     void exercise6() {
-        assertThat(7).isEqualTo(7);
+        assertThat(6).isEqualTo(6);
     }
 }
